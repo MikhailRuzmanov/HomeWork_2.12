@@ -22,7 +22,7 @@ class CalculatorServiceImpTest {
     @Test
     void minus() {
         int expected = -9;
-        assertEquals(expected, calculatorService.minus(10, -19));
+        assertEquals(expected, calculatorService.minus(10, 19));
 
     }
 
